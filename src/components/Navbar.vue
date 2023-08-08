@@ -3,7 +3,7 @@
     class="bg-neutral h-32 inline-flex items-center justify-between w-full md:px-16 px-8 text-white"
   >
     <div class="inline-flex items-center space-x-8">
-      <img src="../assets/logo.png" alt="logo" class="h-16 w-16" />
+      <img src="/assets/logo.png" alt="logo" class="h-16 w-16" />
       <span
         class="hidden md:block text-4xl font-semibold tracking-widest uppercase"
         >Koalas</span

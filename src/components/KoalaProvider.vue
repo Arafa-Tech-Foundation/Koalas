@@ -12,9 +12,9 @@
 
 <script setup lang="ts">
 const koalaGlobs = await import.meta.glob(
-  "../assets/koalas/*.(jpg|png|jpeg|webp|svg)"
+  "/assets/koalas/*.(jpg|png|jpeg|webp|svg)"
 );
 const koalas = await Promise.all(
-  Object.values(koalaGlobs).map(async (koala) => (await koala()).default)
+  Object.values(koalaGlobs).map(async (koala) => (<any>await koala()).default)
 );
 </script>
